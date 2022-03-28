@@ -1,0 +1,144 @@
+body {
+    height: auto;
+
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+/* Left Side */
+
+.container {
+    width: 70%;
+    height: 70vh;
+
+    border-radius: 1em;
+
+    background-color: hsl(244, 38%, 16%);
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    overflow: hidden;
+
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left_side{
+    max-width: 50%;
+    justify-content: left;
+
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+
+#insights {
+    color: hsl(277, 64%, 61%);
+}
+
+/* Right Side */
+
+.right_side {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    background: url(images/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-right: auto;
+
+    float: right;
+
+    z-index: 0;
+}
+
+#purple_color {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    background-color: hsla(277, 64%, 61%, 0.25);
+
+    filter: brightness(100%);
+    filter: contrast(200%);
+
+    z-index: 1;
+}
+
+/* Info */
+
+.info {
+    width: 75%;
+    height: 50vh;
+    
+    text-align: left;
+    text-align-last: left;
+    word-spacing: normal;
+
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+#text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+    color: hsla(0, 0%, 100%, 0.75);
+
+    line-height: 1.5em;
+
+    padding-top: 10px;
+}
+
+/* Stats */
+
+.stats {
+    margin-top: 50px;
+}
+
+#companies {
+    width: 33.33%;
+    float: left;
+}
+
+#templates {
+    width: 33.33%;
+    float: left;
+}
+
+#queries {
+    width: 33.33%;
+    float: left;
+}
+
+#num_of {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    color: hsla(0, 0%, 100%, 0.75);
+}
